@@ -1,0 +1,94 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #5c8754;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .scoreboard {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+  
+  .container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+  }
+  
+  .box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: #b0a13e;
+    background-color: #ffffc7;
+  }
+  
+  #reset-btn, #new-btn, #theme-btn {
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .msg-container {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    height: 100vh;
+  }
+  
+  #msg {
+    font-size: 3rem;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+
+  .dark-theme {
+    background-color: #191913;
+    color: #ffffff;
+  }
+  
+  .dark-theme .box {
+    background-color: #444;
+    color: #fff;
+  }
+  
+  .dark-theme #reset-btn, 
+  .dark-theme #new-btn,
+  .dark-theme #theme-btn {
+    background-color: #444;
+    color: #fff;
+  }
+  
